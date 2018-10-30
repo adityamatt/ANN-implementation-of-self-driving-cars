@@ -25,16 +25,17 @@ pickle
 sudo pip install opencv
 ```
 
-##########################
+### Dataset Details
 
 I have converted the dataset of images (read opencv library) to randomized data set and pickled it which is a 549 mb file
 You may download it from:   https://drive.google.com/file/d/15jpYFUBDXY9sOXI_mRkIIpQk6RYtMJmy/view?usp=sharing
 and paste it in the folder of code
-##########################
+
 To reconstruct the dataset from scratch:
     uncomment the lines:11-13 in main.py
                         1 in Utility.py
-###########################
+                        
+# Experiments
 I have stored the outputs of all experiments as pickled file in a folder stored_experiments
 To reconstruct the graphs:
     python graph.py <experiment_no.>
@@ -69,7 +70,7 @@ Each experiment when ends creates two pickled file(of small kbs) with name forma
 "Test_Epoch"+str(iteration)+"_batch_size"+str(mini_batch_size)+"_alpha"+str(learning_rate)
 
 Paste the files in the stored_experiments folder before running graph.py
-########################
+### Query
 Contact:
 2016csb1029@iitrpr.ac.in        (Valid till 2020)
 aditya.tiwarics@gmail.com
