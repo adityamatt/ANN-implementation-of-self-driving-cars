@@ -69,9 +69,13 @@ Note: All these experiments take time
     When done on Lab computers(with 8 cores) each epoch took aroudn 30 seconds  
 ```
 
-Each experiment when ends creates two pickled file(of small kbs) with name format  
+```
+Each experiment when ends creates two pickled file(of small kbs) with name format 
+```
+```
 "Training_Epoch"+str(iteration)+"_batch_size"+str(mini_batch_size)+"_alpha"+str(learning_rate)  
-"Test_Epoch"+str(iteration)+"_batch_size"+str(mini_batch_size)+"_alpha"+str(learning_rate)  
+"Test_Epoch"+str(iteration)+"_batch_size"+str(mini_batch_size)+"_alpha"+str(learning_rate) 
+```
   
 Paste the files in the stored_experiments folder before running graph.py  
 ### Query
