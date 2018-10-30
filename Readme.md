@@ -1,11 +1,29 @@
-Name:Aditya Tiwari
-Entry:2016csb1029
-###########################
-Library Used:
+## Platform Used  
+Ubuntu 16.04
+## Requirements  
+Python 2   
+## Library Used:
 matplotlib
 pickle
 numpy
 opencv      (This is optional if need to construct the dataset)
+
+To install libraries if missing,I use pip  
+```
+sudo apt-get install python-pip 
+```
+Numpy  
+```
+sudo pip install numpy
+```
+Matplotlib
+```
+sudo pip install matplotlib
+```
+pickle
+```
+sudo pip install opencv
+```
 
 ##########################
 
